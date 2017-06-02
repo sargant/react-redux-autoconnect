@@ -2,6 +2,9 @@
 
 Convention over configuration for [react-redux](https://github.com/reactjs/react-redux)'s `connect()`
 
+[![Travis](https://img.shields.io/travis/sargant/react-redux-autoconnect.svg?style=flat-square)](https://travis-ci.org/sargant/react-redux-autoconnect)
+[![npm](https://img.shields.io/npm/v/react-redux-autoconnect.svg?style=flat-square)](https://www.npmjs.com/package/realm-redux-snapshot-middleware)
+
 ## Usage
 
 ```
