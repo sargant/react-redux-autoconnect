@@ -2,8 +2,8 @@ import { connect } from 'react-redux'
 
 export default (Component, options) =>
   connect(
-    Component.mapStateToProps,
-    Component.mapDispatchToProps,
-    Component.mergeProps,
+    Component && Component.mapStateToProps,
+    Component && Component.mapDispatchToProps,
+    Component && Component.mergeProps,
     options
   )(Component)

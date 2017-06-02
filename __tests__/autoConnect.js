@@ -7,6 +7,10 @@ beforeEach(() => {
   connect.mockClear()
 })
 
+it('does not explode with an undefined component', () => {
+  const wrappedComponent = autoConnect(undefined)
+})
+
 it('calls connect with a plain component', () => {
   const simpleComponent = {}
   const wrappedComponent = autoConnect(simpleComponent)
