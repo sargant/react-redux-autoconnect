@@ -1,0 +1,21 @@
+{
+  "name": "react-redux-autoconnect",
+  "version": "0.1.0",
+  "description": "Convention over configuration for react-redux's `connect()`",
+  "main": "./lib/index.js",
+  "author": "Robert Sargant",
+  "license": "MIT",
+  "scripts": {
+    "compile": "babel src -d lib",
+    "prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  },
+  "peerDependencies": {
+    "react-redux": ">=3.0.0"
+  },
+  "babel": {
+    "presets": ["env"]
+  }
+}
