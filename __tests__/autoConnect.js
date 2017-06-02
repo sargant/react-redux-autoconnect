@@ -1,7 +1,7 @@
 import autoConnect from '../src/autoConnect'
 import { connect } from 'react-redux'
 
-const redux = jest.mock('react-redux')
+jest.mock('react-redux')
 
 beforeEach(() => {
   connect.mockClear()
