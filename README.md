@@ -7,7 +7,7 @@ Convention over configuration for [react-redux](https://github.com/reactjs/react
 
 ## Usage
 
-```
+```javascript
 autoConnect(Component, [options])
 ```
 
@@ -24,7 +24,7 @@ The optional `options` argument is also passed to `connect()` as the fourth argu
 
 So you can now keep everything wrapped up in a single class:
 
-```
+```javascript
 import autoConnect from 'react-redux-autoconnect'
 
 class Foo extends React.Compoment {
