@@ -1,6 +1,6 @@
 {
   "name": "react-redux-autoconnect",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convention over configuration for react-redux's `connect()`",
   "main": "./lib/autoConnect.js",
   "author": "Robert Sargant",
@@ -18,10 +18,5 @@
   },
   "peerDependencies": {
     "react-redux": ">=3.0.0"
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ]
   }
 }

@@ -2,6 +2,6 @@ __tests__
 __mocks__
 yarn.lock
 src
+.babelrc
 .travis.yml
 *.log
-
