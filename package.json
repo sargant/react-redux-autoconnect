@@ -7,15 +7,21 @@
   "license": "MIT",
   "scripts": {
     "compile": "babel src -d lib",
-    "prepublish": "npm run compile"
+    "test": "jest",
+    "prepublish": "in-publish && npm run compile || not-in-publish"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1"
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "in-publish": "^2.0.0",
+    "jest": "^20.0.4"
   },
   "peerDependencies": {
     "react-redux": ">=3.0.0"
   },
   "babel": {
-    "presets": ["env"]
+    "presets": [
+      "env"
+    ]
   }
 }
