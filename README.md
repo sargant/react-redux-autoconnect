@@ -25,6 +25,8 @@ The optional `options` argument is also passed to `connect()` as the fourth argu
 So you can now keep everything wrapped up in a single class:
 
 ```
+import autoConnect from 'react-redux-autoconnect'
+
 class Foo extends React.Compoment {
   render () {
     return (
@@ -40,6 +42,6 @@ class Foo extends React.Compoment {
 export default autoConnect(Foo)
 ```
 
-## This is stupidly simple code
+## This is stupidly simple code and you should be ashamed
 
-I know
+I know, but I was fed up of writing the same utility function over and over.
