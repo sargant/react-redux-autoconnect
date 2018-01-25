@@ -1,10 +1,13 @@
 {
   "name": "react-redux-autoconnect",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Convention over configuration for react-redux's `connect()`",
   "main": "./lib/autoConnect.js",
   "author": "Robert Sargant",
   "license": "MIT",
+  "files": [
+    "./lib"
+  ],
   "repository": "https://github.com/sargant/react-redux-autoconnect",
   "scripts": {
     "compile": "babel src -d lib",
