@@ -12,9 +12,9 @@
     "prepublish": "npm run compile"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.5.1",
-    "jest": "^20.0.4"
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.5.0"
   },
   "peerDependencies": {
     "react-redux": ">=3.0.0"
